@@ -3,7 +3,7 @@ email:              info@kombuchasummit.com
 description:        Stories from the world of Kombucha.
 author:             Good Culture Kombucha Ltd.
 baseurl:            "/KombuchaBlog"
-# url:                "/"
+url:                "https://supertrupert.github.io/KombuchaBlog"
 
 # Social Profiles
 twitter_username:
