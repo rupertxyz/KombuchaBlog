@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
+  --primary: #eccd1b;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -375,7 +375,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 1.2rem;
 }
 
 h4, .h4 {
@@ -9853,7 +9853,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #0056b3 !important;
+  color: #eccd1b !important;
 }
 
 .text-secondary {
@@ -9861,7 +9861,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #494f54 !important;
+  color: #eccd1b !important;
 }
 
 .text-success {

@@ -1,15 +1,16 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+title:              Kombucha Summit
+email:              info@kombuchasummit.com
+description:        Stories from the world of Kombucha.
+author:             Good Culture Kombucha Ltd.
 # baseurl:            "/"
 # url:                "/"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    BlackrockDigital
-facebook_username:  StartBootstrap
-linkedin_username:
+twitter_username:
+github_username:
+facebook_username:  Kombuchasummit
+linkedin_username:  kombucha-summit
+instagram_username: kombuchasummit
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code

@@ -13,7 +13,8 @@ layout: default
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ site.title }}</h1>
+            <h1>Kombucha <span class="highlight">Summit</span></h1>
+            <!-- <h1>{{ site.title }}</h1> -->
             {% if site.description %}
             <span class="subheading">{{ site.description }}</span>
             {% endif %}
@@ -34,9 +35,10 @@ layout: default
 
         <article class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+          <img class="post-thumbnail float-left" width="250px" src="{{ post.background }}">
             <h2 class="post-title">{{ post.title }}</h2>
             {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+            <h3 class="post-subtitle">{{ post.subtitle | truncate: 150 }}</h3>
             {% else %}
             <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
@@ -48,7 +50,7 @@ layout: default
             {{ site.author }}
             {% endif %}
             on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
+            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
           </p>
         </article>
 

@@ -35,8 +35,12 @@
   @media only screen and (min-width: 768px) {
     > a {
       > .post-title {
-        font-size: 36px;
+        font-size: 30px;
       }
     }
   }
+}
+
+.post-thumbnail {
+  margin: 0 20px 0 0;
 }

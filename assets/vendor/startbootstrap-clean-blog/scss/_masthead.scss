@@ -25,6 +25,10 @@ header.masthead {
       padding: 200px 0;
     }
   }
+  .page-heading .highlight {
+      color: #eccd1b;
+    }
+
   .page-heading,
   .site-heading {
     text-align: center;
@@ -33,7 +37,7 @@ header.masthead {
       margin-top: 0;
     }
     .subheading {
-      font-size: 24px;
+      font-size: 30px;
       font-weight: 300;
       line-height: 1.1;
       display: block;
@@ -42,7 +46,7 @@ header.masthead {
     }
     @media only screen and (min-width: 768px) {
       h1 {
-        font-size: 80px;
+        font-size: 50px;
       }
     }
   }
