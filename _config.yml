@@ -2,7 +2,7 @@ title:              Kombucha Summit
 email:              info@kombuchasummit.com
 description:        Stories from the world of Kombucha.
 author:             Good Culture Kombucha Ltd.
-# baseurl:            "/"
+baseurl:            "/KombuchaBlog"
 # url:                "/"
 
 # Social Profiles
