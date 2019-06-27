@@ -51,6 +51,13 @@
   margin: 0 20px 0 0;
 }
 
+@media (max-width: 900px) {
+  .float-left {
+  float:none !important;
+  text-align:center;
+      }
+   }
+
 .post-thumbnail img {
   width: 400px;
   flex-shrink: 0;
