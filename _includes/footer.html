@@ -58,7 +58,7 @@
           </li>
           {% endif %}
           {% if site.instagram_username %}
-          <li class="list-inline-item">
+          <li class="list-inline-item last-item">
             <a href="https://instagram.com/{{ site.instagram_username }}" target=_blank>
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
@@ -67,6 +67,18 @@
             </a>
           </li>
           {% endif %}
+          <li class="list-inline-item subscribe">
+            <form method="POST" action="https://kombuchasummit.us20.list-manage.com/subscribe/post?u=2f18beec43b9a557345501374&amp;id=0c4526fdb9">
+              <div class="form-row justify-content-center">
+                <div class="col-auto">
+                  <input type="text" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Enter your Email">
+                </div>
+                <div class="col-auto">
+                  <button type="submit">Subscribe</button>
+                </div>
+              </div>
+            </form>
+          </li>
         </ul>
         <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
       </div>
