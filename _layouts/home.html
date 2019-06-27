@@ -13,7 +13,7 @@ layout: default
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>Kombucha <span class="highlight">Summit</span></h1>
+            <h1>Kombucha <span class="highlight">Summit</span> Blog</h1>
             <!-- <h1>{{ site.title }}</h1> -->
             {% if site.description %}
             <span class="subheading">{{ site.description }}</span>
@@ -35,7 +35,9 @@ layout: default
 
         <article class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-          <img class="post-thumbnail float-left" width="250px" src="{{ post.background }}">
+          <div class="post-thumbnail float-left">
+            <img src="{{ post.background }}">
+          </div>
             <h2 class="post-title">{{ post.title }}</h2>
             {% if post.subtitle %}
             <h3 class="post-subtitle">{{ post.subtitle | truncate: 150 }}</h3>
