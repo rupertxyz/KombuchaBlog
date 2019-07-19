@@ -115,3 +115,19 @@
 .blog-intro.first {
   margin-top: 50px;
 }
+
+.guest-disclaimer {
+  padding: 20px;
+  font-size: 12px;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+
+  h3 {
+  font-size: 14px;
+  }
+
+  p {
+  margin-block-end: 10px;
+  }
+}
