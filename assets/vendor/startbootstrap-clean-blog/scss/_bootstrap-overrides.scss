@@ -52,6 +52,9 @@
   .blog-container {
     margin: 20px 0 0 0! important;
   }
+  .blog-container li {
+    margin-left: 20px;
+  }
 }
 
 .float-left.profile {
@@ -64,6 +67,9 @@
 }
 
 .blog-container {
+  h2 {
+    margin: 40px 0 20px 0;
+  }
   h3 {
     text-align: center;
     margin: 0 0 10px 0;
@@ -77,10 +83,14 @@
   }
   p {
     margin-block-start: 20px;
+    margin-block-end: 20px;
   }
   ul {
     padding-inline-start: 20px;
     margin-bottom: 0px
+  }
+  li {
+    margin-left: 20px;
   }
   li a {
     text-decoration: underline;
